@@ -1,0 +1,86 @@
+
+
+/* only flex containing components */
+.custom1-flex-container{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center; 
+}
+
+
+/*.custom1-flex-components div img{*/
+/*    width: 85%;*/
+/*     height: 70%;        */
+/*     border-radius:100%;*/
+/*}*/
+
+.custom1-flex-item{
+    text-align: center;
+    /*margin-bottom: 2em;*/
+}
+/*.custom1-flex-item a{*/
+/*    text-decoration: none;*/
+/*    padding-top: 2em;*/
+/*}*/
+/* .flex-item-text{
+    /* text-decoration: none; */
+    /* padding-top: 3em !important; 
+} */
+
+
+
+/*..............medea query..................*/
+
+/*600 px and down*/
+@media (max-width: 600px){
+
+    .custom1-flex-container {
+        padding: 0;
+        margin: 0 0 0 0;
+    }
+
+    .custom1-flex-container div{
+        width:45%;
+
+    }
+    .custom-flex-item{
+        width:45%!important;
+
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    /* .product_item{
+          width:12%;
+      } */
+
+}
+
+/*992 px and down*/
+@media (max-width: 992px){
+    
+  
+    
+}
+/************
+8. 880px
+************/
+@media only screen and (max-width: 880px)
+{
+    /* #custom-flex-item{
+        width:20%!important;
+
+    } */
+}
+/*768 px and down*/
+@media (max-width: 768px){
+      
+   
+    
+    
+}
+
+
+
+

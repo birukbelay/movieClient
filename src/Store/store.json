@@ -1,0 +1,83 @@
+[    
+{
+"user":{
+    "info":{},
+    "cart":{
+        "addedProducts":[],
+        "addedIds": [],
+        "quantityById":{"1":3, "2":4}
+    },
+    "authenticated": false,
+    "isAdmin": false,
+    "loading": false,
+    "credentials": {},
+    "likes": [],
+    "notifications": []
+},
+"FrontPage":{
+    "categories":{
+        "isCategoriesLoading":true,
+        "allCategories":{
+            
+        },
+        "initialCategories":[]
+    },
+    "deals":{
+        "dealItem":{},
+        "dealsitems":[]
+    }
+},
+
+"products":{
+  
+    "selectedProduct":{},
+    
+
+    "AllProductsById":{
+            "1":{"id":1, "title":"note9", "price":7000,"inventory": 2},
+            "2":{"id":2, "title":"ma", "price":7000}
+    },       
+    
+    "allConfigs":{
+
+
+        "selectedFilterConfig":{
+            "id":"",
+            "Category":"",
+            "Sort":"",
+            "Brand":"",                        
+            "Shop":"",
+            "selectedPage":1,        
+            "haveNextPage":true,
+            "havPreviousPage":false
+            
+        },
+
+        // a single configration
+        "b-c-sh-so":{    //a single configration == postsBySubredditthis is equal to
+            "configId":"",
+            "categoryName":"",
+            "sortBy":"",
+            "BrandName":"all",                        
+            "ShopName":"all",                        
+            "subCategories":[],
+            "brands":[],
+            "shops":[],
+            "lastPage":9,     
+            
+            "page1":{  //== posts/subRedit/ react equal to // react/frontend
+                "isFetching":false,
+                "didInvalidate":false,               
+                "productIds":[]
+            },
+            "page2":{
+                "isFetching":false,
+                "didInvalidate":false,               
+                "productIds":[]
+            }
+
+        }
+    }
+}
+}
+]

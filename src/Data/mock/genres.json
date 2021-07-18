@@ -1,0 +1,11 @@
+
+[
+  {"id": "action", "name": "action", "description": "this movies", "image": "action.png", "path": ""},
+  {"id": "adventure", "name": "adventure", "description": "movies", "image": "adventure.png", "path": ""},
+  {"id": "love", "name": "love", "description": "this movies", "image": "love.png"},
+  {"id": "crime", "name": "crime", "description": "this movies", "image": "crime.png", "path": ""},
+  {"id": "fantasy", "name": "fantasy", "description": "this movies", "image": "fantasy.png", "path": ""},
+  {"id": "fiction", "name": "fiction", "description": "this movies", "image": "fiction.png", "path": ""}
+
+
+]

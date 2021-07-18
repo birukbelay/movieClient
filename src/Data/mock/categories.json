@@ -1,0 +1,8 @@
+[
+    {"id": "hollywood", "name": "hollywood", "description": "tver", "image": "hollywood.png", "path": ""},
+    {"id": "bollywood", "name": "bollywood", "description": "thiver", "image": "bollywood.png", "path": ""},
+    {"id": "amharic", "name": "amharic", "description": "ter", "image": "amharic.png", "path": ""},
+    {"id": "korean", "name": "korean", "description": "this is the best movie ever", "image": "korean.png", "path": ""},
+    {"id": "spanish", "name": "spanish", "description": "this is the best movie ever", "image": "spanish.png", "path": ""}
+
+]

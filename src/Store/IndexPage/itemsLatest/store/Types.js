@@ -1,0 +1,54 @@
+//Config Item Category
+export const SELECT_PAGE = '[ITEM_TYPES]_SELECT_PAGE';
+export const INVALIDATE_PAGE = '[ITEM_TYPES]_INVALIDATE_PAGE'
+export const INVALIDATE_PAGE_CONFIG = '[ITEM_TYPES]_INVALIDATE_PAGE_CONFIG'
+
+export const ConfigTyp = {
+    GENRE: '[ITEM_TYPES]_GENRE',
+    CATEGORY: '[ITEM_TYPES]_CATEGORY',
+    TYPE: '[ITEM_TYPES]_TYPE',
+    SORT_BY: '[ITEM_TYPES]_SORT'
+}
+export const MovieTypes = {
+    MOVIE: 'movie',
+    CONTINUAL: 'continual',
+    SERIES: 'series',
+}
+
+export const RESET_FILTER = '[ITEM_TYPES]_RESET_FILTER'
+//single item
+export const ITEM_REQUEST_SINGLE = '[ITEM_TYPES]_REQUEST_SINGLE_ITEM'
+export const ITEM_FETCH_SUCCESS = '[ITEM_TYPES]_ITEM_FETCH_SUCCESS'
+export const ITEM_LOAD_ERROR = '[ITEM_TYPES]_ITEM_LOAD_ERROR'
+//multiple items
+export const REQUEST_PAGE = '[ITEM_TYPES]_REQUEST_PAGE_ITEM_TYPES'
+export const FETCH_SUCCESS = '[ITEM_TYPES]_FETCH_ITEM_TYPES_SUCCESS'
+export const LOAD_ERROR = '[ITEM_TYPES]_LOAD_ITEM_TYPES_ERROR'
+//config
+export const SET_CONFIG_ID = '[ITEM_TYPES]_SET_CONFIG_ID'
+export const SELECT_ITEM = '[ITEM_TYPES]_SELECT_ITEM'
+//pagination
+export const NEXT_PAGE = '[ITEM_TYPES]_NEXT_PAGE'
+export const PREVIOUS_PAGE = '[ITEM_TYPES]_PREVIOUS_PAGE'
+export const LAST_PAGE_REACHED = '[ITEM_TYPES]_LAST_PAGE_REACHED'
+export const FIRST_PAGE_REACHED = '[ITEM_TYPES]_FIRST_PAGE_REACHED'// product reducer types
+
+
+export const SortTypes = {
+    NAME: 'NAME',
+    DATE_ITEM_TYPES: 'DATE_ITEM_TYPES',
+    DATE_OLDEST: 'DATE_OLDEST',
+    RATING: 'RATING',
+}
+
+//Item types
+export const UPLOADING = '[ITEM_TYPES]_UPLOADING';
+export const UPLOAD_SUCCESS = '[ITEM_TYPES]_UPLOAD_SUCCESS';
+export const UPLOAD_ERROR = '[ITEM_TYPES]_UPLOAD_ERROR';
+export const UPDATE_SUCCESS = '[ITEM_TYPES]_UPDATE_SUCCESS';
+export const UPDATE_ERROR = '[ITEM_TYPES]_UPDATE_ERROR';
+export const DELETE_SUCCESS = '[ITEM_TYPES]_DELETE_SUCCESS';
+export const DELETE_ERROR = '[ITEM_TYPES]_DELETE_ERROR';
+export const INVALIDATE_MAIN_CONFIG = '[ITEM_TYPES]_INVALIDATE_ALL_CONFIG';
+
+
